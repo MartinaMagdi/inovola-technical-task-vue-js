@@ -1,0 +1,112 @@
+.section-one {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  padding: 4em 3em;
+
+  .first-text {
+    font-weight: bold;
+    font-size: 2.25em;
+    color: $third-color;
+  }
+
+  .second-text {
+    font-size: 1.125em;
+    width: 35%;
+    margin: 1.5em auto;
+  }
+
+  .btn {
+    width: 18.438em;
+    height: 3.75em;
+    background: $third-color;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.125em;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: $fourth-color;
+    justify-content: center;
+    margin: 2em auto;
+
+    i {
+      color: $fourth-color;
+      margin-right: 0.4em;
+      font-size: 1.5em;
+      animation: arrowAnimation 0.5s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  .image-container {
+    position: relative;
+    width: fit-content;
+    margin: 5em auto;
+
+    .dot-pattern {
+      position: absolute;
+      left: -4.5em;
+      top: -2.5em;
+    }
+
+    .ellipse {
+      position: absolute;
+      bottom: -4em;
+      right: -5em;
+    }
+
+    .section-img {
+      position: relative;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1279px) {
+  // Mobiles and tablets
+  .section-one {
+    padding: 3em 1em;
+
+    .first-text {
+      font-size: 1.5em;
+    }
+
+    .second-text {
+      width: 85%;
+    }
+
+    .btn {
+      width: 12.438em;
+      height: 2.75em;
+    }
+
+    .image-container {
+      .dot-pattern {
+        width: 5em;
+        height: 5em;
+        left: -1em;
+        top: -1.5em;
+      }
+
+      .ellipse {
+        width: 5em;
+        height: 5em;
+        bottom: -1em;
+        right: -1em;
+      }
+
+      .section-img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@keyframes arrowAnimation {
+  from {
+    color: $first-color;
+  }
+  to {
+    color: $fourth-color;
+  }
+}
