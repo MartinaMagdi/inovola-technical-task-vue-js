@@ -1,0 +1,49 @@
+.footer {
+  padding: 1em 2em;
+  text-align: center;
+  background-color: $third-color;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  .social-container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    .social-item {
+      margin: 1em 1.3em;
+      i {
+        color: $first-color;
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+
+    i {
+      background-color: $eighth-color;
+      padding: 0.5em;
+      border-radius: 50%;
+      font-size: 1.6em;
+    }
+
+    .message-icon {
+      color: $tenth-color;
+    }
+
+    .arrow-icon {
+      color: $third-color;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1279px) {
+    // Mobiles and tablets
+    .footer {
+      padding: 1em;
+    }
+  }

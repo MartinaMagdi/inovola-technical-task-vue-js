@@ -23,7 +23,7 @@
     </div>
 
     <button class="btn">
-      <span>تصفح التطبيقات</span>
+      <span>جميع التطبيقات</span>
       <v-icon>mdi-chevron-left</v-icon>
     </button>
   </div>
