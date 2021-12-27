@@ -8,9 +8,9 @@
         </button>
 
         <div class="image-container">
-            <img class="dot-pattern" src="../../assets/images/Dot-Pattern2.png" alt="Dot-Pattern" />
-            <img class="ellipse" src="../../assets/images/Ellipse.png" alt="Ellipse" />
-            <img class="section-img" src="../../assets/images/section1-img.png" alt="Section image" />
+            <img class="dot-pattern" src="../../assets/images/Landing page/Dot-Pattern2.png" alt="Dot-Pattern" />
+            <img class="ellipse" src="../../assets/images/Landing page/Ellipse.png" alt="Ellipse" />
+            <img class="section-img" src="../../assets/images/Landing page/Section one/section1-img.png" alt="Section image" />
         </div>
     </div>
 </template>
