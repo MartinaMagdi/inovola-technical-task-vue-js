@@ -1,0 +1,91 @@
+.section-three {
+  padding: 10em 2em;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+
+  .first-text {
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+  }
+
+  .second-text {
+    font-size: 0.875em;
+  }
+
+  .features-apps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em 0;
+
+    .item {
+      background: $sixth-color;
+      margin: 1em 0.5em;
+      padding: 1em;
+      display: flex;
+      flex-wrap: wrap;
+
+      .left-side {
+        text-align: right;
+        margin-right: 1em;
+
+        .title-container {
+          display: flex;
+          align-items: baseline;
+
+          .card-title {
+            font-weight: 600;
+            font-size: 1em;
+            color: $third-color;
+            margin-left: 1.5em;
+            margin-bottom: 0.5em;
+          }
+
+          span {
+            color: $ninth-color;
+            font-size: 0.875em;
+            display: flex;
+
+            i {
+              color: $eighth-color;
+              font-size: 1.5em;
+            }
+          }
+        }
+
+        .developer-name {
+          font-size: 0.625em;
+          font-weight: bold;
+
+          span {
+            color: $seventh-color;
+          }
+        }
+
+        .description {
+          font-size: 0.625em;
+        }
+      }
+    }
+  }
+
+  .btn {
+    font-weight: 600;
+    font-size: 1em;
+    color: $fourth-color;
+
+    i {
+      color: $fourth-color;
+      margin-right: 0.4em;
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1279px) {
+  // Mobiles and tablets
+  .section-three {
+    padding: 5em 1em;
+  }
+}
